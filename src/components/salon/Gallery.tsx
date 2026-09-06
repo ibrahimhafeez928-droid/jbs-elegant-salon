@@ -101,8 +101,8 @@ export function Gallery() {
             <ChevronLeft className="h-5 w-5" />
           </button>
           <img
-            src={IMAGES[index].src}
-            alt={IMAGES[index].alt}
+            src={IMAGES[index]!.src}
+            alt={IMAGES[index]!.alt}
             className="max-h-[82vh] w-auto max-w-full object-contain"
             onClick={(e) => e.stopPropagation()}
           />
